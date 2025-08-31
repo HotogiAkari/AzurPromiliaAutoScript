@@ -11,7 +11,6 @@ if hwnd:
     time.sleep(1) # 给窗口一些时间来激活
 else:
     print("未找到游戏窗口。")
-    # 这里可以添加退出或重试逻辑
 
 # 模拟按住 W 键一秒
 pyautogui.keyDown('w')
